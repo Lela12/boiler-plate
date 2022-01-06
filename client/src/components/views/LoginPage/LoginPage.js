@@ -4,7 +4,7 @@ import { loginUser } from "../../../_actions/user_action";
 import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const [Email, setEmail] = useState("");
